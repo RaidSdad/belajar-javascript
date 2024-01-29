@@ -4,7 +4,7 @@ var y = "3.14";
 var toNum = parseInt(x); 
 var toFloat = parseFloat(y);
 
-///fungsi
+///fungsi deklarasi
 function jumlah(a,b) {
     return a + b;
 }
