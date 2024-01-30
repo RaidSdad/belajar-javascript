@@ -10,23 +10,23 @@ if (computer < 0.34) {
 }
 
 if (user == 1 && computer == "Gajah") { // User 1
-    alert('Kamu Menang Komputer Memilih ' + computer)
+    alert('Kamu Memilih Gajah Seri Komputer Memilih ' + computer)
 } else if (user == 1 && computer == "Semut") {
-    alert('Seri Komputer Memilih ' + computer)
+    alert('Kamu Memilih Gajah Kompoter Menang Memilih ' + computer)
 } else if (user == 1 && computer == "Orang") {
-    alert('Kamu Kalah Komputer Memilih ' + computer)
+    alert('Kamu Memilih Gajah Kompoter Kalah Komputer Memilih ' + computer)
 } else if (user == 2 && computer == "Gajah") { // User 2
-    alert('Kamu Kalah Komputer Memilih ' + computer)
+    alert('Kamu Memilih Orang Kalah Komputer Memilih ' + computer)
 } else if (user == 2 && computer == "Semut") {
-    alert('Kamu Menang Memilih ' + computer)
+    alert('Kamu Memilih orang Menang Komputer Memilih ' + computer)
 } else if (user == 2 && computer == "Orang") {
-    alert('Seri Komputer Memilih ' + computer)
+    alert('Kamu Memilih Orang Seri Komputer Memilih ' + computer)
 } else if (user == 3 && computer == "Gajah") { // User 3
-    alert('Seri Komputer Memilih ' + computer)
+    alert('Kamu Memilih Semut Menang Komputer Memilih' + computer)
 } else if (user == 2 && computer == "Semut") {
-    alert('Kamu Kalah Komputer Memilih ' + computer)
+    alert('Kamu Memilih Orang Menang Komputer Memilih ' + computer)
 } else if (user == 2 && computer == "Orang") {
-    alert('Kamu Menang Komputer Memilih ' + computer)
+    alert('Kamu Memilih Orang Seri Komputer Memilih ' + computer)
 } else {
     alert('Masukan Input yang Benar')
 }
