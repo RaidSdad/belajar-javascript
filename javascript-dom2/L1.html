@@ -79,15 +79,15 @@
 			</div>
             <script>
                 function login() {
-                  var username = document.getElementById("user").value;
-                  var password = document.getElementById("pass").value;
+                  var username = document.getElementById("user");
+                  var password = document.getElementById("pass");
                 
-                  if (username === "" || password === "") {
+                  if ((username.value === "") || (password.value === "")) {
                     alert("Username dan password jangan kosong woii!");
                     return;
                   }
                 
-                  if (username === "admin" && password === "admin") {
+                  if ((username.value === "raid") && (password.value === "warpon12")) {
                     alert("Login Sukses , Selamat datang Admin!");
                     window.location.href = "admin.html";
                   } else {
